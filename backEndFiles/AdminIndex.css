@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #388b6f;
+}
+/* Header Start */
+.header{
+    background: white;
+    width: 100%;
+    box-shadow: 0px 1px 1px black;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header .logo{
+    height: 70px;
+    width: 30%;
+    /* border: 2px solid black; */
+}
+.header .logo > a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.header .logo > a img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.option .links{
+    /* margin-left: 80px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option .links li{
+    list-style: none;
+    line-height: 70px;
+}
+#first{
+    color: #388b6f;
+}
+.option .links li a,
+.option .links li label{
+    color: black;
+    font-size: 18px;
+    padding: 9px 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    list-style: none;
+}
+.option .links li,a{
+    list-style: none;
+    text-decoration: none;
+}
+.option .links li a:hover{
+    color: #388b6f;
+}
+.header .login{
+    height: 70px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin-right: 35px;
+}
+.header .login button{
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    padding: 7px 0px ;
+    border-radius: 9px;
+    background-color: #388b6f;
+}
+/* Header End */
+
+/* product section start */
+.product{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(237, 232, 232);
+}
+.product form{
+    height: 80vh;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.product form input:not(.submit){
+    height: 40px;
+    width: 80%;
+    /* border: none; */
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgba(254, 250, 250, 0.747);
+    text-align: left;
+    padding: 0px 30px;
+    border-radius: 10px;
+}
+.product form input .submit{
+    height: 40px;
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color:#388b6f;
+    text-align: left;
+    padding: 0px 30px;
+    border-radius: 8px;
+}
+/* }
+.product form label.image{
+    height: 40px;
+    width: 80%;
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgb(243, 239, 239);
+    text-align: left;
+    padding: 0px 30px;
+    border: solid black; */
+    /* border-radius: 10px; */
+    /* display: none; */
+
+/* } */
+.product form label{
+    height: 30px;
+    width: 60%;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    /* background-color: rgb(243, 239, 239); */
+    /* text-align: left; */
+    /* padding: 0px 30px; */
+}
+/* product section ends */
+
+/* view section starts */
+.viewAll{
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(237, 232, 232);
+}
+.viewAll h1{
+    width: max-content;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    position: relative;
+}
+table {
+    margin-top: 40px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th > img{
+    height: 180px;
+    width: 180px;
+    border: 2px solid black;
+}
+/* view section ends */
+
+/* review section starts */
+.review{
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(237, 232, 232);
+}
+.review h1{
+    width: max-content;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    position: relative;
+}
+table {
+    margin-top: 40px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+/* review section  ends*/
