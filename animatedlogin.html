@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animatedlogin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signin">
+            <form action="signin.php" method="post">
+                <h1>Sign In</h1>
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="PassWord">
+                <!-- <button>Sign In</button> -->
+                <input type="submit" name="submit"  value="Sign In" style="background-color: #388b6f;color: white;">
+            </form>
+            <button class="registerbtn" style="background-color: #388b6f;color: white;">register</button>
+        </div>
+        
+        <div class="register" id="register">
+            <form action="register.php" method="post">
+                <h1>Create Account</h1>
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="PassWord">
+                <input type="text" name="sellerorbuyer" placeholder="Type of buyer or seller">
+                <input type="submit" name="submit" value="Register" style="background-color: #388b6f;color: white;">
+            </form>
+            <button class="signinbtn" style="background-color: #388b6f;color: white;">signin</button>
+        </div>
+
+    </div>
+    <script src="animatedlogin.js"></script>
+</body>
+</html>

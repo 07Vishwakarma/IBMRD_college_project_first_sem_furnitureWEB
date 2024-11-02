@@ -234,48 +234,6 @@ nav .content .links li{
 /* Home Section End */
 
 
-
-
-
-/* Top Section Card Start */
-.offers{
-    padding: 10px 8% 20px;
-    background: #f3f3f3;
-}
-.offer-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    align-items: center;
-    gap: 0.90rem;
-    margin-top: 30px;
-}
-.offer-content .row{
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.offer-content .row i{
-    font-size: 50px;
-    color: #388b6f;
-}
-.offer-content .row h3{
-    margin-left: 5px;
-}
-.offer-content .row p{
-    margin-left: 5px;
-}
-@media (max-width:920px){
-    .offer-content{
-        grid-template-columns: 1fr;
-    }
-}
-/* Top Section Card End */
-
-
-
-
-
 /* About Section Start */
 .about{
     padding: 150px 8% 120px;
@@ -334,10 +292,69 @@ nav .content .links li{
 /* About Section End */
 
 
+/* product start */
+
+/* 
+.card-content-1{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row1{
+    height: 480px;
+    width: 300px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 5px;
+    float: left;
+}
+.row1 img{
+    width: 100%;
+    height: 60%;
+}
+.card-body{
+    padding: 10px;
+}
+.card-body h3{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 550;
+    color: #388b6f;
+    text-shadow: 0px 1px 1px black;
+}
+.card-content-1 .card-body p{
+    font-weight: 500;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+.card-content-1 .card-body h5{
+    margin-top: 5px;
+    font-size: 18px;
+}
+.card-content-1 .card-body button{
+    width: 130px;
+    height: 30px;
+    font-weight: 550;
+    margin-top: 5px;
+    background: transparent;
+    color: #388b6f;
+    border-radius: 5px;
+    border: 2px solid #388b6f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card-content-1 .card-body button:hover{
+    background: #388b6f;
+    color: white;
+}
+ */
+
+/* product ends */
 
 
-
-/* Product Section Start */
+/* 50% Product Section Start */
 .product{
     padding: 10px 8% 120px;
 }
@@ -353,17 +370,20 @@ nav .content .links li{
 }
 .card-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    align-items: center;    
-    gap: 0.90rem;
+    grid-template-columns:repeat(auto-fit,minmax(250px,auto));
+    align-items: center;
+    gap: 0.9rem;
     margin-top: 30px;
 }
 .card-content .row{
-    background: #f3f3f3;
     position: relative;
     overflow: hidden;
+    height: 480px;
+    width: 300px;
+    background: #f3f3f3;
     border-radius: 10px;
     cursor: pointer;
+    margin: 10px 5px;
 }
 .row img{
     width: 100%;
@@ -409,6 +429,8 @@ nav .content .links li{
         grid-template-columns: 1fr;
     }
 }
+
+
 /* Product Section End */
 
 

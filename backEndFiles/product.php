@@ -39,18 +39,27 @@
         }
 
 
-        print_r($img);
-        echo"<br>";
-        print_r($imgname);
-        echo"<br>";
-        print_r($imgerror);
-        echo"<br>";
-        print_r($imgtemp);
-        echo"<br>";
+        // print_r($img);
+        // echo"<br>";
+        // print_r($imgname);
+        // echo"<br>";
+        // print_r($imgerror);
+        // echo"<br>";
+        // print_r($imgtemp);
+        // echo"<br>";
+        echo"<script> 
+                if(confirm('data is added'))
+                    header(location:AdminIndexBackend.php);
+            </script>";
+        // mysqli_close($conn);
+    }
+    else{
+        echo"<h1>Something is Wrong </h1>";
+        // mysqli_close($conn);
     }
     mysqli_close($conn);
     
     ?>
-    <h1>hellow</h1>
+    
 </body>
 </html>

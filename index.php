@@ -1,5 +1,5 @@
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,17 +26,17 @@
             <input type="checkbox" id="show-menu">
             <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
             <div class="content">
-                <div class="logo"><a href="index.html"><img src="./images/logo.png" alt=""></a></div>
+                <div class="logo"><a><img src="./images/logo.png" alt=""></a></div>
 
                 <ul class="links">
                     <li><a href="#" id="first">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#product">Products</a></li>
+                    <li><a href="#products">Products</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#review">Reviews</a></li>
                 </ul>
             </div>    
-            <a href="AnimatedLoginPage.html">LOGIN</a>
+            <a href="animatedlogin.html">LOGIN</a>
         </nav>
     </div>
     <!-- Header End -->
@@ -71,31 +71,43 @@
     <!-- About Section End -->
 
     <!-- Product Section Start -->
-    <section class="product" id="product">
+    <div>
+    <section class="product" id="products">
         <div class="main-txt">
             <h3>Products</h3>
         </div>
-        <hr>
 
-        <?php 
-            echo'
-                <div class="row">
-                    <img src="./images/p1.png" alt="">
-                    <div class="card-body">
-                        <h3>Chair</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <h5>Price $999</h5>
-                        <button>Order Now</button>
-                    </div>
-                </div>';
-            ?>
-            
-    </section>
+        <div class="card-content">
+        
+            <div class="row">
+                <img src="./images/p9.png" alt="">
+                <div class="card-body">
+                <h3>Chair</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h5>Price 999</h5>
+                <button>Order Now</button>
+            </div>
+            <div class="row1">
+                <img src="./images/p9.png" alt="">
+                <div class="card-body">
+                <h3>Chair</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h5>Price 999</h5>
+                <button>Order Now</button>
+            </div>
+            <div class="row1">
+                <img src="./images/p9.png" alt="">
+                <div class="card-body">
+                <h3>Chair</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h5>Price 999</h5>
+                <button>Order Now</button>
+            </div>
+
+        </div>
+    </section> 
+    </div>
     <!-- Product Section End -->
-
-
-
-
 
     <!-- Banner Start -->
     <div class="banner">
@@ -108,11 +120,6 @@
     </div>
     <!-- Banner End -->
 
-
-
-
-
-
     <!-- Sale Products Start -->
     <section class="product" id="products" style="margin-top: 50px;">
         <div class="main-txt">
@@ -124,16 +131,17 @@
                 <div class="card-body">
                     <h3>Chair</h3>
                     <p>Lorem ipsum dolor sit amet.</p>
-                    <h5>Price $999</h5>
+                    <h5>Price 999</h5>
                     <button>Order Now</button>
                 </div>
             </div>
+
             <div class="row">
                 <img src="./images/p10.png" alt="">
                 <div class="card-body">
                     <h3>Chair</h3>
                     <p>Lorem ipsum dolor sit amet.</p>
-                    <h5>Price $999</h5>
+                    <h5>Price 999</h5>
                     <button>Order Now</button>
                 </div>
             </div>
@@ -142,7 +150,7 @@
                 <div class="card-body">
                     <h3>Chair</h3>
                     <p>Lorem ipsum dolor sit amet.</p>
-                    <h5>Price $999</h5>
+                    <h5>Price 999</h5>
                     <button>Order Now</button>
                 </div>
             </div>
@@ -151,7 +159,7 @@
                 <div class="card-body">
                     <h3>Chair</h3>
                     <p>Lorem ipsum dolor sit amet.</p>
-                    <h5>Price $999</h5>
+                    <h5>Price 999</h5>
                     <button>Order Now</button>
                 </div>
             </div>
